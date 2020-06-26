@@ -13,7 +13,7 @@ const componentObjs = components.map((component) => {
       desc: trim(getDesc(component)[0]),
       inputs: getInputs(component).length,
       type: "intermediate", // We are scraping only the intermediate.html file
-      typeNum: 100, // Designated for basic.html
+      typeNum: 200, // Designated for intermediate.html
       isFavorite: false, // Default is false
    };
 });
