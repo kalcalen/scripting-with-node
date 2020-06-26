@@ -8,7 +8,11 @@ module.exports = {
       return component.match(/(?<=<b>).+(?=<\/b>)/);
    },
    getDesc(component) {
-      return component.match(/(?<=<\/b>\s-\s).+(?=<\/p>)/s);
+      let descInput = component.match(/(?<=<\/b>\s-\s).*?(?=<\/p>)/gs);
+      if (descInput == null) {
+         return "no description";
+      }
+      return descInput;
    },
    getInputs(component) {
       let arrayInput = component.match(/<input.+?\/\>/gs);

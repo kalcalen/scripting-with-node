@@ -2,12 +2,13 @@ const fs = require("fs");
 const { getComponents, getName, getDesc, trim, getInputs } = require("./regex");
 
 const sourceFile = String(
-   fs.readFileSync("html-pages/intermediate-functions.html")
+   fs.readFileSync("./html-pages/intermediate-functions.html")
 );
 
 const components = getComponents(sourceFile);
 
 const componentObjs = components.map((component) => {
+   console.log(component);
    return {
       name: getName(component)[0],
       desc: trim(getDesc(component)[0]),
