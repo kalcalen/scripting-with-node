@@ -1,0 +1,65 @@
+[
+   {
+      "name": "typeOf",
+      "desc": "n",
+      "inputs": 1,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 206
+   },
+   {
+      "name": "indexOf",
+      "desc": "n",
+      "inputs": 1,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 205
+   },
+   {
+      "name": "spliceAdd",
+      "desc": "n",
+      "inputs": 1,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 204
+   },
+   {
+      "name": "spliceRemove",
+      "desc": "n",
+      "inputs": 1,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 203
+   },
+   {
+      "name": "randomRange",
+      "desc": "n",
+      "inputs": 2,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 202
+   },
+   {
+      "name": "lookUpProfile",
+      "desc": "n",
+      "inputs": 2,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 201
+   },
+   {
+      "name": "countingCards",
+      "desc": "n",
+      "inputs": 1,
+      "type": "intermediate",
+      "typeNum": 200,
+      "isFavorite": false,
+      "order": 200
+   }
+]
