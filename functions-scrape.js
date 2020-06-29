@@ -27,6 +27,6 @@ for (let i = 0; i < reversedObjs.length; i++) {
 
 console.log(orderedObjs.reverse());
 
-const targetFile = "./json-files/functions.json ";
+const targetFile = "./json-files/functions.json";
 
 fs.writeFileSync(targetFile, JSON.stringify(orderedObjs));
