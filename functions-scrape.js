@@ -11,7 +11,7 @@ const componentObjs = components.map((component) => {
       desc: trim(getDesc(component)[0]),
       inputs: getInputs(component).length,
       type: "functions", // We are scraping only the basic.html file
-      typeNum: 100, // Designated for functions.html
+      typeNum: 300, // Designated for functions.html
       isFavorite: false, // Default is false
    };
 });
